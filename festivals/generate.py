@@ -1,6 +1,13 @@
 #!/usr/bin/python3
 
+import argparse
+import re
 import sys
+
+# Instantiate the parser
+parser = argparse.ArgumentParser(description='Optional app description')
+# Required positional argument
+parser.add_argument('folder', type=str, help='Folder to process')
 
 
 def get_bands_by_dimension(file_path):
@@ -9,6 +16,7 @@ def get_bands_by_dimension(file_path):
         # Day or genre
         dimension = None
         for line in file:
+            line = re.sub('[|].*', '', line).strip()
             if line.startswith("#### "):
                 dimension = line.strip().split('# ')[-1]
                 bands[dimension] = []
@@ -48,10 +56,10 @@ def build_markdown_table(bands_by_day, bands_by_genre, bands_by_tier):
     return table
 
 if __name__ == "__main__":
-    day_file = "bands-by-day.md"
-    genre_file = "bands-by-genre.md"
-    tiers_file = "bands-by-tier.md"
-
+    args = parser.parse_args()
+    day_file = args.folder + "/bands-by-day.md"
+    genre_file = args.folder + "/bands-by-genre.md"
+    tiers_file = args.folder + "/bands-by-tier.md"
     bands_by_day, bands_by_genre, bands_by_tier = build_band_maps(day_file, genre_file, tiers_file)
     markdown_table = build_markdown_table(bands_by_day, bands_by_genre, bands_by_tier)
     print(markdown_table.encode('utf-8').decode(sys.stdout.encoding))
