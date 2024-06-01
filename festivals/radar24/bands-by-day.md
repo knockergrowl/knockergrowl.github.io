@@ -4,7 +4,7 @@
 * Plini
 * VOLA
 * Ichika Nito
-* Сaskets
+* Caskets
 * Thrown
 * Earthside
 * unpeople
@@ -17,7 +17,7 @@
 
 * TesseracT
 * Dirty Loops
-* Car bomb
+* Car Bomb
 * Heart of a Coward
 * Conjurer
 * The Fall of Troy

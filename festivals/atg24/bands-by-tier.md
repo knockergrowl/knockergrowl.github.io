@@ -22,7 +22,7 @@
 * Night Verses
 * Sigh
 * Show Me The Body
-* Year of no Light
+* Year of No Light
 * And So I Watch You From Afar
 * Caspian
 * Brontide
@@ -36,7 +36,7 @@
 * Bossk
 
 #### Third
-* Cobra the Impaler
+* Cobra The Impaler
 * Curse These Metal Hands
 * Din of Celestial Birds
 * Host Body

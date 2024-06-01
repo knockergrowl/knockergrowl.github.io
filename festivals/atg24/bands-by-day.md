@@ -1,7 +1,7 @@
 #### 14 - Wednesday
 * And So I Watch You From Afar
 * Bossk
-* Cobra the Impaler
+* Cobra The Impaler
 * Curse These Metal Hands
 * Din of Celestial Birds
 * Host Body
@@ -58,7 +58,7 @@
 * Night Verses
 * Sigh
 * Show Me The Body
-* Year of no Light
+* Year of No Light
 * AK/DK
 * Asymetric Universe
 * Benefits

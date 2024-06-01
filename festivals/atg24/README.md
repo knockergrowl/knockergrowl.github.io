@@ -1,4 +1,4 @@
-# ArcTanGen 2024
+# ArcTanGent 2024
 
 Bands by:
 * [Day](bands-by-day.md) ([source](https://arctangent.co.uk/line-up/))

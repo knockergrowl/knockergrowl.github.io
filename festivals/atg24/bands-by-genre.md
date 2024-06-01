@@ -94,7 +94,7 @@
 * Psychonaut
 * Sâver
 * Torpor
-* Year of no Light
+* Year of No Light
 
 #### Post-Rock
 * A-Sun Amissa
@@ -113,7 +113,7 @@
 * Anta
 * AVKRVST
 * Baroness
-* Cobra the Impaler
+* Cobra The Impaler
 * Curse These Metal Hands
 * Earthside
 * Earthtone9
